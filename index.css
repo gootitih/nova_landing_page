@@ -68,5 +68,33 @@ text-decoration: rgb(255, 255, 255);
     hr{
         border-bottom: solid 0.1px rgba(255, 255, 255, 0.2);
     }
-   C-title{color
+   .section titulo{
+    margin-left: 5rem;
+    margin-top: 10rem;
+   }
     
+ h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+ }
+.titulo p{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-weight: 100;
+ }
+
+ .titulo button{
+    padding: 1rem 2rem;
+    background-color: rgb(62, 38, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+  .titulo button:hover{
+    letter-spacing: 2px;
+    transition: 0.3 all;
+  }
